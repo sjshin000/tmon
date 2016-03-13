@@ -1,4 +1,4 @@
-package pawn;
+package chess;
 
 public class Pawn {
 //	final static String WHITE = "WHITE";
@@ -9,7 +9,7 @@ public class Pawn {
 		this.color = color;
 	}
 
-	public Object isColor() {
+	public Object getColor() {
 		return color;
 	}
 

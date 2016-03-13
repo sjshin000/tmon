@@ -1,4 +1,4 @@
-package pawn;
+package chess;
 
 import java.util.ArrayList;
 

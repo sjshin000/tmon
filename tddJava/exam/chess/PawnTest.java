@@ -1,4 +1,4 @@
-package pawn;
+package chess;
 
 import static org.junit.Assert.*;
 
@@ -11,11 +11,11 @@ public class PawnTest {
 	@Test
 	public void test() {
 		Pawn firstPawn = new Pawn(firstPawnColor);
-		assertEquals("WHITE", firstPawn.isColor());
+		assertEquals("WHITE", firstPawn.getColor());
 		
 		
 		Pawn secondPawn = new Pawn(secondPawnColor);
-		assertEquals("BLACK", secondPawn.isColor());
+		assertEquals("BLACK", secondPawn.getColor());
 	}
 
 }
