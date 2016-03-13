@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import org.junit.Test;
 
 import chess.Board;
-import chess.Pawn;
+import chess.pieces.Pawn;
 
 public class BoardTest {
 

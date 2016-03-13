@@ -2,6 +2,8 @@ package chess;
 
 import java.util.ArrayList;
 
+import chess.pieces.Pawn;
+
 public class Board {
 	private ArrayList<Pawn> pawns = new ArrayList<Pawn>();
 	private int numberOfPawn = 0;
